@@ -1,0 +1,23 @@
+headers = {
+    "Content-Type": "application/json"
+}
+
+# Cоздание заказа
+order_body = {
+    "firstName": "Башкинова",
+    "lastName": "Евгения",
+    "address": "Казань, ул Азата аббасова, 9",
+    "metroStation": 4,
+    "phone": "+7 927 355 53 49",
+    "rentTime": 2,
+    "deliveryDate": "2023-07-19",
+    "comment": "В домофон не звонить!",
+    "color": [
+        "BLACK"
+    ]
+}
+
+# Получение заказа по треку
+t_number = {
+    "track": 555555
+}
